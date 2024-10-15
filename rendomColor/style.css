@@ -1,0 +1,36 @@
+.container{
+    
+    margin: 10;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+   
+    
+      
+}
+.button1{
+    background-color: rgb(214, 61, 137);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button2{
+    background-color: rgb(15, 177, 177);
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
