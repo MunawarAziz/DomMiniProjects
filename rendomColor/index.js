@@ -12,7 +12,9 @@ let intervel
 // console.log(randomColor())
 const startChangingColor = function(){
    
+   if(!intervel){
     intervel = setInterval(changingColor, 1000)
+   }
    function changingColor(){
     document.body.style.background = randomColor()
  }
@@ -20,6 +22,7 @@ const startChangingColor = function(){
 
 const stopChangingColor = function(){
     clearInterval(intervel)
+    intervel = null;
 }
 
 document.querySelector("#start").
